@@ -4,5 +4,5 @@ Leidzsh is a oh-my-zsh theme of [Jan](https://github.com/jandintel) & [Bart](htt
 
 Clone this repo and symlink theme:
 ```bash
- ~/leidzsh/leidzsh.zsh-theme leidzsh.zsh-theme
+ln -s ~/leidzsh/leidzsh.zsh-theme leidzsh.zsh-theme
 ```
