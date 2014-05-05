@@ -61,8 +61,9 @@ export PATH=$HOME/Downloads/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:$H
 unsetopt correct_all
 
 # Command functions
-psgrep() { ps -ef |grep $1 ;}
-lgrep() { l |grep $1 ;}
+psgrep() { ps -ef |grep -i $1 ;}
+lgrep() { l |grep -i $1 ;}
+untar() { tar xzf $1 ;}
 
 # Run v to start virtualenv
 alias v="source venv/bin/activate"
